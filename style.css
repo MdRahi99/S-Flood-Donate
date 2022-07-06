@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    font-family: 'Righteous', cursive, 'Ubuntu', sans-serif;
+}
+
+/* ########## Home Section Design Starts ########## */
+.home-page{
+    background-image: url(./img/home_page.jpg);
+    background-size: cover;
+    text-align: center;
+    padding:10% 0%;
+}
+
+.home-page h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.home-page p{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+
+.border{
+    border-bottom: 1px solid rgb(221, 219, 219);
+    padding: 1%;
+    color: white;
+}
+
+.home-page a{
+    text-decoration: none;
+    background-color: rgb(250, 90, 62);
+    color: White;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 8px;
+    padding: 18px 25px;
+}
+ /* ########## Home Section Design Ends ########## */
+
+ /* ########## Donate Section Design Starts ########## */
+.title{
+    width: 50%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin: auto;
+}
+
+.title h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.title p{
+    font-size: 18px;
+    color: rgb(169, 168, 166);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.option{
+    margin: 0 1%;
+    background-color: rgb(239, 236, 229);
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+
+.select-option{
+    background-color: rgb(252, 204, 196);
+    border: 2px solid tomato;
+    color: tomato;
+}
+
+.button{
+    margin: 4%;
+    text-align: center;
+}
+
+.text{
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 55%;
+    border: none;
+    padding: 1%;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(169, 168, 166);
+    border-bottom: 2px solid rgb(215, 214, 211);
+}
+
+.submit{
+    background-color: rgb(250, 90, 62);
+    text-decoration: none;
+    border-radius: 4%;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 1% 1%;
+}
+/* ########## Donate Section Design Ends ########## */
+
+/* ########## Donate-Plan Section Design Starts ########## */
+.plan-content{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.plan-option{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.catagories{
+    padding: 2% 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border-radius: 5%;
+}
+
+.catagories-1{
+    background-color: rgb(202, 250, 248);
+}
+
+.catagories-2{
+    background-color: rgb(145, 192, 246);
+}
+
+.catagories-3{
+    background-color: rgb(252, 204, 151);
+}
+/* ########## Donate-Plan Section Design Ends ########## */
+
+/* ########## About section Design Starts ########## */
+.about{
+    display: flex;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 5%;
+    box-shadow: 10px 10px 40px gray;
+    justify-content: center;
+}
+
+.about-content{
+    width: 45%;
+    text-align: left;
+    padding: 3%;
+}
+
+.about-content h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.about-content p{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(26, 26, 27);
+}
+
+.about-content button{
+    border: none;
+    background-color: rgb(216, 100, 80);
+    color: rgb(244, 237, 237);
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.about-img img{
+    width: 480px;
+    height: 380px;
+}
+/* ########## About section Design Ends ########## */
+
+/* Contact Design Starts */
+.contact{
+    margin-bottom: 8%;
+}
+
+.contact-form{
+    width: 60%;
+    padding: 10% 20%;
+    background-color: rgb(243, 231, 200);
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.form{
+    background-color: rgb(206, 209, 209);
+    display: flex;
+}
+
+.form input{
+    border: none;
+    padding-right: 18%;
+    padding-left: 3%;
+    background-color: rgb(206, 209, 209);
+    font-size: 15px;
+}
+
+.form a{
+    text-decoration: none;
+    background-color: rgb(250, 90, 62);
+    padding: 4% 12%;
+    font-size: 15px;
+    color: white;
+}
+/* Contact Design Ends */
+
+/* ########## Footer Design Starts ########## */
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.footer h1{
+    color: rgb(140, 144, 144);
+}
+
+.footer p{
+    color: rgb(199, 203, 203);
+    font-size: 25px;
+    padding-top: 2%;
+}
+/* ########## Footer Design Ends ########## */
